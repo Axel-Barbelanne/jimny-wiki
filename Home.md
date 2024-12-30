@@ -12,7 +12,7 @@ Whether you’re here to explore the system’s architecture, learn about its se
 ## Wiki Sections
 
 
-#### Jimny Project Overview
+#### [Jimny Project Overview](Jimny-Project-Overview)
 Learn about the purpose, features, and current state of the project.
 Get a high-level understanding of the system’s architecture.
 #### Getting Started
