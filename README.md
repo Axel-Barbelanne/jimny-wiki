@@ -1,3 +1,5 @@
-This repo consists of the wiki for the SPOTS Jimny project.
+# Home of the SPOTS Jimny Project Wiki
 
-All relevant code is in the corresponding gitlab repository. Please contact me at axel.barbelanne@gmail.com for access.
+This repository serves as the wiki of the SPOTS Jimny project in Gitlab.
+
+For any questions on this wiki or on acceses to the SPOTS Jimny gitlab directory, please contact me at axel.barbelanne@gmail.com
