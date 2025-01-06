@@ -3,11 +3,11 @@
 
 
 Contents:
-[[#About this wiki]]
-[[#Wiki Sections]]
+[About this wiki](#About this wiki)
+[Wiki Sections](#Wiki Sections)
 
 
-![](jimny_above.JPG)
+![](https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jimny_above.JPG)
 
 
 ---
