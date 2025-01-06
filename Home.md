@@ -9,11 +9,10 @@ Contents:
 [Wiki Sections](#Wiki-Sections)
 
 <br>
+<br>
   
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jimny_above.JPG" width="600">
   
-<br>  
-<br>
 <br>
 <br>
 
