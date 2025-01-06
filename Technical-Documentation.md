@@ -4,7 +4,7 @@
 This page gives an in-depth understanding of all important components of the Jimny. Software related information will be discussed in [Software Overview](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#Software-Overview).
 
 Contents: <br>
-[Modules](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#modules)
+[Modules](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#modules) <br>
   - [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard) <br>
   - [AxelBrake](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#axelbrake) <br>
   - [Steerbok](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#steerbok)
@@ -14,32 +14,21 @@ Contents: <br>
 [Sensors](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sensors) <br>
   - [HereLink](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#herelink) <br>
   - [GPS](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#gps) <br>
-  - [Camera](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#camera) <br>
+  - [Camera](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#camera)
 
-[Output Components](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#output-components)
-
-  - [Stepper](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#stepper)
-
-  - [Boost Converter](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#boost-converter)
-
-  - [Stepper Driver](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#stepper-driver)
-
-  - [Angular Encoder](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#angular-encoder)
-
-  - [Acceleration plug](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#acceleration-plug)
-
+[Output Components](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#output-components) <br>
+  - [Stepper](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#stepper) <br>
+  - [Boost Converter](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#boost-converter) <br>
+  - [Stepper Driver](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#stepper-driver) <br>
+  - [Angular Encoder](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#angular-encoder) <br>
+  - [Acceleration plug](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#acceleration-plug) <br>
   - [Braking servo](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#braking-servo)
 
+[Additional Components](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#additional-components) <br>
+  - [Buck Converter](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#buck-converter) <br>
+  - [Battery](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#battery) <br>
 
-[Additional Components](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#additional-components)
-
-  - [Buck Converter](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#buck-converter)
-
-  - [Battery](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#battery)
-
-
-[Communication Protocols](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#communication-protocols)
-
+[Communication Protocols](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#communication-protocols) <br>
   - [CAN](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#can)
 
 
