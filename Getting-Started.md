@@ -156,6 +156,7 @@ First check the emergency button is not pushed in and the cable connections are 
 
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jetson_power.svg" width="600">
 <br>
+<br>
 
 2. Connect the battery
    
@@ -163,6 +164,7 @@ First check the emergency button is not pushed in and the cable connections are 
 	Connect the XT30 connectors for the battery.
 
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/battery_plug.svg" width="600">
+<br>
 <br>
 
 3. Turn on the HereLink controller
@@ -281,6 +283,7 @@ The HereLink mode can be one of many, but only three modes are supported: *MANUA
 
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/herelink_screen.svg" width="500">
 <br>
+<br>
 
 As a shortcut for the arming/disarming of the vehicle, the user can press the far right button on the HereLink controller (see red arrow on image below).
 
@@ -293,6 +296,7 @@ Finally, if in *MANUAL* HereLink mode, i.e. in remote mode, you can use the joys
 
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/controller.svg" width="400">
 <br>
+<br>
 
 #### Buttons
 
@@ -302,10 +306,12 @@ First is the emergency mode, which will immediately enter the emergency mode des
 
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/emergency.jpg" width="200">
 <br>
+<br>
 
 Additionally, three other buttons are available to the user. Only the left is currently used, which serves to manually force manual mode (i.e. user control) on the vehicle. Other buttons can be configured at a later stage by adapting the Sterfboard's Arduino code.
 
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/buttons.jpg" width="400">
+<br>
 <br>
 
 #### Pedals
