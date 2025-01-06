@@ -1,24 +1,36 @@
 
-# Getting Started
 
 This page contains the information to get the Jimny running and to produce our obtained results. If the required hardware and software is already mounted and working, please skip straight to [Start-up](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#start-up). If none of the hardware is mounted, please go through the relevant sections in [Technical Documentation](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation).
 
 
 Contents:
+
 [Pre-Requisites](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#pre-requisites)
+
 [Software Setup](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#software-setup)
+
   [Cloning the repository](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#cloning-the-repository)
+
   [Setting up the SSH connection with visualization](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#setting-up-the-ssh-connection-with-visualization)
+
 [Start-up](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#start-up)
+
 [Shut-Down](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#shut-down)
+
 [Modes](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#modes)
+
 [Commands and Controls](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#commands-and-controls)
+
   [HereLink Controller](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#herelink-controller)
+
   [Buttons](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#buttons)
+
   [Pedals](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#pedals)
 
+<br>
 
 ---
+
 ## Pre-Requisites
 
 **General pre-requisites**
@@ -42,7 +54,7 @@ The Jetson AGX Orin with the Jimny kit is already equipped with all the necessar
 - Ubuntu 22.04 (Is ran on Jetpack 6.0)
 - ROS 2 Humble
 - ROS dependencies
-	- See [[#Software Setup]]
+	- See [Software Setup](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#software-setup)
 - TMUX
 - python3-rosdep
 
@@ -141,14 +153,15 @@ First check the emergency button is not pushed in and the cable connections are 
    
 	Connect the USB-C cable below to a power source. We were typically using a power bank, though an outlet on an inverter with the battery would work just fine too.
    
-![[jetson_power.svg]]
+
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jetson_power.svg" width="600">
 
 2. Connect the battery
    
 	Connect the crocodile to XT30 connector cable on the battery side (positive crocodile connector first). 
 	Connect the XT30 connectors for the battery.
 
-	![[battery_plug.svg]]
+        <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/battery_plug.svg" width="600">
    
 3. Turn on the HereLink controller
 
@@ -255,16 +268,16 @@ The commands on the Jimny will mainly come from three places: the HereLink contr
 
 The controller is the main source of commands at this stage.
 
-After the start-up procedure described [[#Start-up|above]], you will notice two toggle menus at the top-right: arming status and HereLink mode.
+After the start-up procedure described [above](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#start-up), you will notice two toggle menus at the top-right: arming status and HereLink mode.
 
-The arming status (red on image below) can be in *Armed* or *Disarmed* states. If on Disarm, the corresponding [[#Modes|mode]] is Manual; if on Armed, it corresponds to the HereLink mode
+The arming status (red on image below) can be in *Armed* or *Disarmed* states. If on Disarm, the corresponding [Modes](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#modes) is Manual; if on Armed, it corresponds to the HereLink mode
 
-The HereLink mode can be one of many, but only three modes are supported: *MANUAL*, *ACRO*, *LOITER*. Again, be careful with these names since they conflict with the ones [[#Modes|above]]. This is for simplicity since other HereLink modes sometimes didn't respond, but should be fixed down the line.
+The HereLink mode can be one of many, but only three modes are supported: *MANUAL*, *ACRO*, *LOITER*. Again, be careful with these names since they conflict with the ones [above](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#modes). This is for simplicity since other HereLink modes sometimes didn't respond, but should be fixed down the line.
 - *MANUAL*: Corresponds to the Remote mode
 - *ACRO*: Corresponds to the Autonomous mode
 - *LOITER*: Corresponds to a spare mode which can be used for excitation commands in testing (eg. for system ID)
 
-![[herelink_screen.svg|500]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/herelink_screen.svg" width="500">
 
 As a shortcut for the arming/disarming of the vehicle, the user can press the far right button on the HereLink controller (see red arrow on image below).
 
@@ -274,20 +287,20 @@ Finally, if in *MANUAL* HereLink mode, i.e. in remote mode, you can use the joys
 - Left joystick:  steering angle
 - Right joystick: desired velocity (forward = faster)
 
-![[controller.svg|400]]
 
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/controller.svg" width="400">
 
 #### Buttons
 
 The buttons provide several controls available to the user from within the car, without the remote control.
 
-First is the emergency mode, which will immediately enter the emergency mode described [[#Modes|above]]. Make sure this button is not pushed in when starting anything, else the Jimny will be stuck in emergency mode.
+First is the emergency mode, which will immediately enter the emergency mode described [above](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#modes). Make sure this button is not pushed in when starting anything, else the Jimny will be stuck in emergency mode.
 
-![[emergency.jpg|200]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/emergency.jpg" width="200">
 
 Additionally, three other buttons are available to the user. Only the left is currently used, which serves to manually force manual mode (i.e. user control) on the vehicle. Other buttons can be configured at a later stage by adapting the Sterfboard's Arduino code.
 
-![[buttons.jpg|400]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/buttons.jpg" width="400">
 
 #### Pedals
 
