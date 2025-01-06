@@ -391,7 +391,7 @@ A second camera could also be added down the line, for instance for rear view.
 
 ### Stepper
 
-<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/steering.svg" width="300">
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/steering.jpg" width="300">
 <br>
 <br>
 
