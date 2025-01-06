@@ -1,7 +1,7 @@
 
 # Technical Documentation
 
-This page gives an in-depth understanding of all important components of the Jimny. Software related information will be discussed in [[Software-Overview|Software Overview]].
+This page gives an in-depth understanding of all important components of the Jimny. Software related information will be discussed in [Software Overview](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#Software-Overview).
 
 Contents:
 
@@ -81,7 +81,9 @@ Contents:
 ### Sterfboard
 
 
-![[sterfboard.jpg|400]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/sterfboard.jpg" width="400">
+<br>
+<br>
 
 ##### Function
 
@@ -98,7 +100,7 @@ The mode selection is based on several criteria, namely:
 - Whether communication has been lost with the Jetson
 The decision of whether the modules should be in manual, autonomous, or emergency mode is then carried out by activating the 48V relay accordingly for the stepper motor, and by communicating the decided mode to the other modules.
 
-The communication aspect mainly relays information received by the Jetson through UART. We hoped to do this via CAN from the beginning but were unable to get our hands on a CAN transceiver for the Jetson. The communication is therefore done through a 3 cable connection (Rx, Tx, GND, see [[#Set-up]]) from the Jetson to the Sterfboard. After receiving this information, this module will process it and publish it to the CAN bus which is shared with the two other modules. See more [[#CAN|below]] for more information on the CAN bus. 
+The communication aspect mainly relays information received by the Jetson through UART. We hoped to do this via CAN from the beginning but were unable to get our hands on a CAN transceiver for the Jetson. The communication is therefore done through a 3 cable connection (Rx, Tx, GND, see [Set-up](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#Set-up)) from the Jetson to the Sterfboard. After receiving this information, this module will process it and publish it to the CAN bus which is shared with the two other modules. See more [below](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#CAN)) for more information on the CAN bus. 
 
 For the Sterfboard, power is received via a regulated 9V input on the board from a buck converter, and is delivered to other modules over the same ethernet that implements the CAN bus.
 
@@ -144,7 +146,9 @@ The currently soldered connections should be implemented in the PCB if it is re-
 
 ### Steerbok
 
-![[steerbok.jpg|400]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/steerbok.jpg" width="400">
+<br>
+<br>
 
 ##### Function
 
@@ -170,7 +174,7 @@ The cables that need to be connected include:
 
 ##### Additional Information / Debug
 
-See [[#Sterfboard]] for information on drivers to flash the Arduino.
+See [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard) for information on drivers to flash the Arduino.
 
 The system was originally designed to work with a potentiometer rather than an angular encoder. Unfortunately however, after a lot of testing and driving around the vehicle, the potentiometer ended up loosening up a little and breaking, since it was operating so close to its maximum range. The potentiometer was therefore replaced by an angular encoder, to ensure this would not happen again since the encoder does not have a maximum range. Since this was done quite late,  the wiring needed to be adapted to the PCB, and two cables had to be soldered to the Arduino. 
 
@@ -189,7 +193,10 @@ Additionally, a better mounting system should be designed than the velcro attach
 
 ### AxelBrake
 
-![[axelbrake.jpg|400]]
+
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/axelbrake.jpg" width="400">
+<br>
+<br>
 
 ##### Function
 
@@ -219,7 +226,7 @@ The cables that need to be connected include:
 
 ##### Additional Information / Debug
 
-See [[#Sterfboard]] for information on drivers to flash the Arduino.
+See [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard) for information on drivers to flash the Arduino.
 
 If an issue is seen with this board, it could well be that one of the cables got unsoldered or disconnected during the mounting process. Particularly look at the soldered connections on the buck converter.
 
@@ -258,7 +265,10 @@ The Jetson AGX Orin already has mounted on it a 2TB external hard drive, as well
 The UART connection needs to be connected to the Sterfboard. The relevant pins are the 40-pin header are GND, UART1_TX and UART2_TX. In the pinout below, note that pin 1 is the pin on the top right.
 The pinout is the following:
 
-![[datasheet_jetson.png]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/datasheet_jetson.png" width="300">
+<br>
+<br>
+
 
 ##### Improvements
 
@@ -271,7 +281,9 @@ A better mount should also be designed so that the Jetson is fixed in place
 
 ## OrangeCube
 
-![[orangecube.svg|300]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/components_sketch.svg" width="300">
+<br>
+<br>
 
 ##### Function
 
@@ -325,7 +337,9 @@ The mounting definitely needs to be improved, especially for the antennas which 
 
 ### GPS
 
-![[gps.jpg|350]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/gps.jpg" width="350">
+<br>
+<br>
 
 ##### Function 
 
@@ -351,7 +365,9 @@ We have not, however, set it up on the vehicle; this remains to be done. A mount
 
 ### Camera
 
-![[camera.jpg|300]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/camera.jpg" width="300">
+<br>
+<br>
 
 ##### Function 
 
@@ -375,7 +391,9 @@ A second camera could also be added down the line, for instance for rear view.
 
 ### Stepper
 
-![[steering.jpg|300]]
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/steering.svg" width="300">
+<br>
+<br>
 
 ##### Function 
 
@@ -415,7 +433,11 @@ This is the driver associated with the NEMA-34 stepper motor. The cables are sep
 ### Angular Encoder
 
 Below is the mount and transmission system for the angular encoder on the vehicle.
-![[assembly.png|400]]
+
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/assembly.png" width="400">
+<br>
+<br>
+
 ##### Function 
 
 The angular encoder serves to give a feedback to the Steerbok on where the steering angle currently is.
@@ -427,7 +449,10 @@ The mounting system for this is a little complex, and the mount is based on prev
 ##### Set-up
 
 Exploded view of key parts of the angular encoder mount and transmission system.
-![[assembly_exploded.png|400]]
+
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/assembly_exploded.png" width="400">
+<br>
+<br>
 
 The mounting is a little difficult to do, mostly due to its positioning under the steering wheel.
 
@@ -445,9 +470,9 @@ Additionally, the screws that tighten the mount will come loose a little after a
 
 ##### Explanation
 
-The accelerator plug is part of the [[#AxelBrake]] module and allows for interaction with the acceleration input of the vehicle. It is done by taking the input of the pedal into the AxelBrake, and providing an output into the female plug in the car. 
+The accelerator plug is part of the [AxelBrake](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#axelbrake) module and allows for interaction with the acceleration input of the vehicle. It is done by taking the input of the pedal into the AxelBrake, and providing an output into the female plug in the car. 
 
-The acceleration signal consists of two voltages, the second being the double of the first. The first ranges from 0.38V - 2.23V and the second from 0.76V - 4.46V. More can be read on this on the Documentation Google docs in the drive, or on the PCB files (See [[#AxelBrake]]).
+The acceleration signal consists of two voltages, the second being the double of the first. The first ranges from 0.38V - 2.23V and the second from 0.76V - 4.46V. More can be read on this on the Documentation Google docs in the drive, or on the PCB files (See [AxelBrake](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#axelbrake)).
 
 ## Braking servo
 
@@ -469,7 +494,7 @@ One of the most important improvements of the whole system is to upgrade this se
 
 ##### Function 
 
-This DC-DC buck converter supplies a regulated 9V from a 12V battery. The 9V is supplied to the SterfBoard and to the OrangeCube. This can be seen in the diagram in [[#Battery]].
+This DC-DC buck converter supplies a regulated 9V from a 12V battery. The 9V is supplied to the SterfBoard and to the OrangeCube. This can be seen in the diagram in [Battery](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#battery).
 
 ##### Improvements
 
@@ -478,7 +503,10 @@ A better mounting system could be designed.
 ### Battery
 
 Power circuitry for the system
-![[power_circuitry.svg]]
+
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/power_circuitry.svg" width="600">
+<br>
+<br>
 
 ##### Function 
 
@@ -510,4 +538,4 @@ Below is an overview of the CAN messages that are used.
 | 0x110  | Sterfboard | Desired steering info | Steering angle       | Steering angle velocity |
 | 0x12   | AxelBrake  | Heartbeat & Feedback  | Velocity target      | Velocity feedback       |
 | 0x120  | Sterfboard | Desired velocity info | Desired velocity     | Desired acceleration    |
-| 0x121  | Sterfboard | Real velocity info    | GPS velocity         |                         |
+| 0x121  | Sterfboard | Real velocity info    | GPS velocity         | -                       |
