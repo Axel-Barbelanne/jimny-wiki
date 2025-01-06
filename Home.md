@@ -7,7 +7,7 @@ Contents:
 [[#Wiki Sections]]
 
 
-![[jimny_above.JPG]]
+![](jimny_above.JPG)
 
 
 ---
