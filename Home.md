@@ -9,7 +9,9 @@ Contents:
 [Wiki Sections](#Wiki-Sections)
 
 
+
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jimny_above.JPG" width="600">
+
 
 
 ---
