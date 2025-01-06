@@ -3,8 +3,7 @@
 
 This page gives an in-depth understanding of all important components of the Jimny. Software related information will be discussed in [Software Overview](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#Software-Overview).
 
-Contents:
-
+Contents: <br>
 [Modules](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#modules) <br>
   - [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard) <br>
   - [AxelBrake](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#axelbrake) <br>
