@@ -5,6 +5,8 @@
 - [About this wiki](https://github.com/Axel-Barbelanne/jimny-wiki/wiki#about-this-wiki)
 - [Wiki Sections](https://github.com/Axel-Barbelanne/jimny-wiki/wiki#wiki-sections)
 
+</details>
+
 # Jimny Project Overview
 <details>
 <summary>Jimny Project Overview</summary>
@@ -85,3 +87,5 @@
 
 - [Google Drive Documents](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#google-drive-documents)
 - [Other Links](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#other-links)
+
+</details>
