@@ -7,19 +7,14 @@ Contents: <br>
 [Modules](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#modules) <br>
   - [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard) <br>
   - [AxelBrake](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#axelbrake) <br>
-  - [Steerbok](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#steerbok) <br>
+  - [Steerbok](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#steerbok)
+
 [Jetson](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#jetson) <br>
 [OrangeCube](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#orangecube) <br>
-
-
-[Sensors](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sensors)
-
-  - [HereLink](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#herelink)
-
-  - [GPS](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#gps)
-
-  - [Camera](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#camera)
-
+[Sensors](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sensors) <br>
+  - [HereLink](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#herelink) <br>
+  - [GPS](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#gps) <br>
+  - [Camera](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#camera) <br>
 
 [Output Components](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#output-components)
 
