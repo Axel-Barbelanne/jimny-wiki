@@ -19,6 +19,8 @@ Contents:
 
 ---
 
+<br>
+
 ## About this wiki
 
 Welcome to the Jimny Project Wiki, a comprehensive resource designed to document the development and functionality of the autonomous Suzuki Jimny for patrolling game reserve fences. This wiki serves two main purposes:
@@ -27,8 +29,11 @@ To provide detailed technical documentation for developers and future contributo
 To offer a user-friendly guide for non-technical individuals who need to operate or understand the system.
 Whether you’re here to explore the system’s architecture, learn about its setup and usage, or contribute to its improvement, this wiki has all the information you need.
 
+<br>
 
 ---
+
+<br>
 
 ## Wiki Sections
 
