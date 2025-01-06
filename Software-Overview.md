@@ -1,21 +1,22 @@
 
-# Software Overview
-
 This page explains the structure of the GitLab repository, and discusses the software used in the project
 
-[[#Repository Overview]]
-[[#Arduino Code]]
-	[[#Sterfboard]]
-	[[#Steerbok]]
-	[[#AxelBrake]]
-[[#Jetson Code]]
-	[[#ROS Code]]
-		[[#Scripts]]
-		[[#cuberos]]
-		[[#mpc_driving_controller]]
-		[[#mode_switch]]
-		[[#to_vehicle]]
-		[[#data_capture]]
+Contents: <br>
+[Repository Overview](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#repository-overview) <br>
+[Arduino Code](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#arduino-code) <br>
+>  [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#sterfboard) <br>
+>  [Steerbok](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#steerbok) <br>
+>  [AxelBrake](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#axelbrake) <br>
+
+[Jetson Code](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#jetson-code) <br>
+>  [Scripts](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#scripts) <br>
+[ROS Code](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#ros-code) <br>
+>  >  [cuberos](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#cuberos) <br>
+>  >  [mpc_driving_controller](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#mpc_driving-controller) <br>
+>  >  [mode_switch](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#mode_switch) <br>
+>  >  [to_vehicle](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#to_vehicle) <br>
+>  >  [data_capture](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#data_capture) <br>
+
 
 
 
@@ -160,13 +161,13 @@ All the most important parameters that should be tuned have been relocated to th
 
 The first functional MPC controller was based on cartesian coordinates, and is the one we used for most of the testing. Nevertheless, with the help of Clovis Schmitt, we worked on developing a second MPC based on Frenet coordinates. There are numerous reasons for which Frenet coordinates can be useful for this, but mainly it serves as a more reliable mechanism to make sure we stay on the desired road. This is implemented as a boolean parameter in the launch file. You may also notice other Frenet parameters that are not actually used in the Frenet MPC. These are remnants from an older non-functional Frenet MPC, but whose parameters could be useful in implementation down the line.
 
-A final feature we will discuss here is the velocity tracking we implemented. Another parameter named `TRACK_VELOCITY` in the launch file ensures the MPC will track the velocity recorded in the waypoints (provided it is actually recorded of course). This allows the MPC to have a time-varying tracking velocity, for instance to go faster on larger roads and slower on narrower ones. This is accompaned by the `TRACK_SCALE` parameter, which will make the MPC track the pre-recorded velocity at a fixed ratio (for instance at half the velocity if 0.5 is set) 
+A final feature we will discuss here is the velocity tracking we implemented. Another parameter named `TRACK_VELOCITY` in the launch file ensures the MPC will track the velocity recorded in the waypoints (provided it is actually recorded of course). This allows the MPC to have a time-varying tracking velocity, for instance to go faster on larger roads and slower on narrower ones. This is accompaned by the `TRACK_SCALE` parameter, which will make the MPC track the pre-recorded velocity at a fixed ratio (for instance at half the velocity if 0.5 is set).
 
 ##### `mode_switch`
 
 The mode_switch package contains a node for safe mode switching for the system. Depending on this mode, mode_switch also publishes the Ackermann commands containing desired states from the RC input or the MPC output.
 
-The node also keeps track of if there have been any errors with the signal, like for instance a lost connection with the cube, or a failed MPC computation. This is then attributed to a `signal_error` variable which will be reflected in the heartbeat code described in [[#`to_vehicle`|to_vehicle]].
+The node also keeps track of if there have been any errors with the signal, like for instance a lost connection with the cube, or a failed MPC computation. This is then attributed to a `signal_error` variable which will be reflected in the heartbeat code described in [to_vehicle](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#to_vehicle).
 
 ##### `data_capture`
 
