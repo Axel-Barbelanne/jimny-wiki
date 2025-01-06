@@ -5,14 +5,22 @@
 This page gives a brief overview of the Jimny project, along with its current state, and an overview of the underlying architecture.
 
 Contents:
-[[#Project Purpose]]
-[[#Project Features]]
-[[#Current State and Future Objectives]]
-[[#Architecture Overview]]
 
+[Project Purpose](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Jimny-Project-Overview#project-purpose)
 
-![[matt_axel_jimny.JPG]]
+[Project Features](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Jimny-Project-Overview#project-features)
 
+[Current State and Future Objectives](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Jimny-Project-Overview#current-state-and-future-objectives)
+
+[Architecture Overview](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Jimny-Project-Overview#architecture-overview)
+
+<br>
+<br>
+
+<img src="(https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/matt_axel_jimny.JPG)" alt="Example Image" width="600">
+
+<br>
+<br>
 
 --- 
 
