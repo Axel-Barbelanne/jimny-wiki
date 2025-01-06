@@ -9,9 +9,9 @@ Contents:
 
 [Software Setup](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#software-setup)
 
-  [Cloning the repository](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#cloning-the-repository)
+-  [Cloning the repository](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#cloning-the-repository)
 
-  [Setting up the SSH connection with visualization](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#setting-up-the-ssh-connection-with-visualization)
+-  [Setting up the SSH connection with visualization](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#setting-up-the-ssh-connection-with-visualization)
 
 [Start-up](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#start-up)
 
@@ -21,11 +21,11 @@ Contents:
 
 [Commands and Controls](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#commands-and-controls)
 
-  [HereLink Controller](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#herelink-controller)
+-  [HereLink Controller](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#herelink-controller)
 
-  [Buttons](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#buttons)
+-  [Buttons](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#buttons)
 
-  [Pedals](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#pedals)
+-  [Pedals](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#pedals)
 
 <br>
 
