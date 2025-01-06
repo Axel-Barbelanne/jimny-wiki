@@ -4,6 +4,7 @@
 This page gives an in-depth understanding of all important components of the Jimny. Software related information will be discussed in [[Software-Overview|Software Overview]].
 
 Contents:
+
 [Modules](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#modules)
 
   - [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard)
