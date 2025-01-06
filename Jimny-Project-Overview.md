@@ -17,7 +17,7 @@ Contents:
 <br>
 <br>
 
-<img src="(https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/matt_axel_jimny.JPG" alt="" width="600">
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/matt_axel_jimny.JPG" alt="" width="600">
 
 <br>
 <br>
