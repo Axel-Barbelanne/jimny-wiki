@@ -3,13 +3,15 @@
 
 
 Contents:
+
 [About this wiki](#About-this-wiki)
+
 [Wiki Sections](#Wiki-Sections)
 
 
 ![](https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jimny_above.JPG)
 
-<img src="[example.png](https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jimny_above.JPG)" width="500">
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jimny_above.JPG" width="500">
 
 
 ---
