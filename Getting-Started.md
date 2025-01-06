@@ -1,21 +1,21 @@
 
 # Getting Started
 
-This page contains the information to get the Jimny running and to produce our obtained results. If the required hardware and software is already mounted and working, please skip straight to [[#Start-up]]. If none of the hardware is mounted, please go through the relevant sections in [[Technical-Documentation|Technical Documentation]].
+This page contains the information to get the Jimny running and to produce our obtained results. If the required hardware and software is already mounted and working, please skip straight to [Start-up](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#start-up). If none of the hardware is mounted, please go through the relevant sections in [Technical Documentation](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation).
 
 
 Contents:
-[[#Pre-Requisites]]
-[[#Software Setup]]
-	[[#Cloning the repository]]
-	[[#Setting up the SSH connection with visualization]]
-[[#Start-up]]
-[[#Shut-Down]]
-[[#Modes]]
-[[#Commands and Controls]]
-	[[#HereLink Controller]]
-	[[#Buttons]]
-	[[#Pedals]]
+[Pre-Requisites](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#pre-requisites)
+[Software Setup](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#software-setup)
+  [Cloning the repository](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#cloning-the-repository)
+  [Setting up the SSH connection with visualization](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#setting-up-the-ssh-connection-with-visualization)
+[Start-up](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#start-up)
+[Shut-Down](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#shut-down)
+[Modes](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#modes)
+[Commands and Controls](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#commands-and-controls)
+  [HereLink Controller](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#herelink-controller)
+  [Buttons](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#buttons)
+  [Pedals](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#pedals)
 
 
 ---
