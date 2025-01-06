@@ -2,11 +2,9 @@
 # Home of the SPOTS Jimny Project Wiki
 
 
-Contents:
-
-[About this wiki](#About-this-wiki)
-
-[Wiki Sections](#Wiki-Sections)
+Contents: <br>
+[About this wiki](#About-this-wiki) <br>
+[Wiki Sections](#Wiki-Sections) <br>
 
 <br>
 <br>
