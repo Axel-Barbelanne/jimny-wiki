@@ -115,10 +115,16 @@ The cuberos package provides the interface between the Jetson and the OrangeCube
 ##### `mpc_driving_controller`
 
 Below: Screenshot showing in *black* the global trajectory to be followed, in *blue* the segment of the trajectory fed to the MPC to be tracked, in *green* the MPC prediction steps, in *red* the past and current vehicle states
-![[mpc_path.png|400]]
+
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/mpc_path.png" width="400">
+<br>
+<br>
 
 Below: Screenshot showing the MPC simulated on a trajectory recorded during a game drive in Dinokeng game reserve
-![[dk_mpc_path.png|400]]
+
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/dk_mpc_path.png" width="400">
+<br>
+<br>
 
 This is currently the most complex package, and includes the ROS2 implementation of two MPC controllers for a vehicle based on a bicycle model.
 
