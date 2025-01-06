@@ -1,15 +1,15 @@
-# Home
+# SPOTS Jimny Project
+
 <details>
-<summary>Home</summary>
+<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki#home">Home</a></summary>
 
 - [About this wiki](https://github.com/Axel-Barbelanne/jimny-wiki/wiki#about-this-wiki)
 - [Wiki Sections](https://github.com/Axel-Barbelanne/jimny-wiki/wiki#wiki-sections)
 
 </details>
 
-# Jimny Project Overview
 <details>
-<summary>Jimny Project Overview</summary>
+<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Jimny-Project-Overview">Jimny Project Overview</a></summary>
 
 - [Project Purpose](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Jimny-Project-Overview#project-purpose)
 - [Project Features](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Jimny-Project-Overview#project-features)
@@ -18,9 +18,8 @@
 
 </details>
 
-# Getting Started
 <details>
-<summary>Getting Started</summary>
+<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started">Getting Started</a></summary>
 
 - [Pre-Requisites](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#pre-requisites)
 - [Software Setup](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#software-setup)
@@ -31,9 +30,8 @@
 
 </details>
 
-# Technical Documentation
 <details>
-<summary>Technical Documentation</summary>
+<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation">Technical Documentation</a></summary>
 
 - [Modules](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#modules)
    - [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard)
@@ -59,9 +57,8 @@
 
 </details>
 
-# Software Overview
 <details>
-<summary>Software Overview</summary>
+<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview">Software Overview</a></summary>
 
 - [Repository Overview](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#repository-overview)
 - [Arduino Code](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview#arduino-code)
@@ -69,9 +66,8 @@
 
 </details>
 
-# Improvements and Suggestions
 <details>
-<summary>Improvements and Suggestions</summary>
+<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions">Improvements and Suggestions</a></summary>
 
 - [Critical Issues](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#critical-issues)
 - [Important Improvements](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#important-improvements)
@@ -81,9 +77,8 @@
 
 </details>
 
-# Appendix
 <details>
-<summary>Improvements and Suggestions</summary>
+<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix">Appendix</a></summary>
 
 - [Google Drive Documents](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#google-drive-documents)
 - [Other Links](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#other-links)
