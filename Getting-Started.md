@@ -163,7 +163,7 @@ First check the emergency button is not pushed in and the cable connections are 
 	Connect the crocodile to XT30 connector cable on the battery side (positive crocodile connector first). 
 	Connect the XT30 connectors for the battery.
 
-<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/battery_plug.svg" width="600">
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/battery_plug.svg" width="500">
 <br>
 <br>
 
