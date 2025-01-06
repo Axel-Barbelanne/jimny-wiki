@@ -30,7 +30,7 @@ The SPOTS Jimny project is a mission that stands to significantly increase fence
 
 By converting a Suzuki Jimny into an autonomous ground vehicle (AGV), SPOTS seeks to facilitate the checking of the often tremendously long fence perimeters, which needs to be done over and over again. The Jimny also allows these patrols to be done regardless of the weather, as currently these generally need to be interrupted in case of rain or storm. In addition to that, the AGV would minimize the risks of putting rangers in dangerous situations by themselves along the fenceline, as well as lower fuel costs through driving efficiency.
 
-Many additional advantages and features can be thought of down the line for the Jimny. For more information on the Jimny project's role for conservation, check out the Dinokeng magazine article [[Appendix#Dinokeng Magazine featuring the Jimny project (pages 30-32)|here]].
+Many additional advantages and features can be thought of down the line for the Jimny. For more information on the Jimny project's role for conservation, check out the Dinokeng magazine article [here](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#other-links).
 
 
 ---
@@ -97,7 +97,13 @@ Stage seven, the final stage *for now* consists of the implementation of a globa
 
 The following diagram showcases the main nodes and communication systems in the project hardware. 
 
-![[jimny_arch_light.svg]]
+<br>
+<br>
+
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jimny_arch_light.svg" alt="" width="600">
+
+<br>
+<br>
 
 
 Below is a very brief description of each node in the system:
