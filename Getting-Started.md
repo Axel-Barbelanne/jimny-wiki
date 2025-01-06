@@ -8,6 +8,7 @@ Contents: <br>
 [Software Setup](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#software-setup) <br>
 >  [Cloning the repository](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#cloning-the-repository) <br>
 >  [Setting up the SSH connection with visualization](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#setting-up-the-ssh-connection-with-visualization)
+
 [Start-up](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#start-up) <br>
 [Shut-Down](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#shut-down) <br>
 [Modes](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started#modes) <br>
