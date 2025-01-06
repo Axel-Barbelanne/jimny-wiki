@@ -5,19 +5,12 @@ This page gives an in-depth understanding of all important components of the Jim
 
 Contents:
 
-[Modules](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#modules)
-
-  - [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard)
-
-  - [AxelBrake](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#axelbrake)
-
-  - [Steerbok](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#steerbok)
-
-
-[Jetson](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#jetson)
-
-
-[OrangeCube](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#orangecube)
+[Modules](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#modules) <br>
+  - [Sterfboard](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sterfboard) <br>
+  - [AxelBrake](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#axelbrake) <br>
+  - [Steerbok](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#steerbok) <br>
+[Jetson](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#jetson) <br>
+[OrangeCube](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#orangecube) <br>
 
 
 [Sensors](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#sensors)
