@@ -98,7 +98,6 @@ Stage seven, the final stage *for now* consists of the implementation of a globa
 The following diagram showcases the main nodes and communication systems in the project hardware. 
 
 <br>
-<br>
 
 <img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/jimny_arch_light.svg" alt="" width="600">
 
