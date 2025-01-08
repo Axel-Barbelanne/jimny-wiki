@@ -1,6 +1,4 @@
 
-# Home of the SPOTS Jimny Project Wiki
-
 
 Contents: <br>
 [About this wiki](#About-this-wiki) <br>
