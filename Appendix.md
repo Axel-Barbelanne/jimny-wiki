@@ -1,5 +1,4 @@
 
-# Appendix
 
 Contents: <br>
 [Google Drive Documents](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#google-drive-documents) <br>
