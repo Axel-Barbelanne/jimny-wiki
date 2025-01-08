@@ -1,6 +1,4 @@
 
-# Jimny Project Overview
-
 
 This page gives a brief overview of the Jimny project, along with its current state, and an overview of the underlying architecture.
 
