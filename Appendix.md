@@ -1,9 +1,9 @@
 
 # Appendix
 
-Contents:
-[[#Google Drive Documents]]
-[[#Other Links]]
+Contents: <br>
+[Google Drive Documents](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#google-drive-documents) <br>
+[Other Links](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#other-links)
 
 
 ![[spots_interns.JPG]]
