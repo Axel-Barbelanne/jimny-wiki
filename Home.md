@@ -53,7 +53,5 @@ Contributions and suggestions are always welcome!
 #### [Appendix](Appendix)
 Reference materials, including links to important Google Drive documents.
 Additional diagrams, schematics, and resources
-#### [Credits](Credits)
-Acknowledging the team members, mentors, and contributors who made this project possible.
 
 
