@@ -6,8 +6,7 @@ Contents: <br>
 [Other Links](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Appendix#other-links)
 
 
-![[spots_interns.JPG]]
-
+<img src="https://github.com/Axel-Barbelanne/jimny-wiki/blob/main/images/spots_interns.JPG" width="600">
 
 ## Google Drive Documents
 
