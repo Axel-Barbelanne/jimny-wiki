@@ -1,11 +1,11 @@
 
 Quite a lot of improvements are suggested throughout this wiki, particularly in the [Technical Documentation](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation) and [Software Overview](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Software-Overview) sections. We will present them here, in a more ordered and hierarchical way. These improvements are of course our suggestions, after working on the project and seeing it from our perspective. To future interns, please feel free to find alternative solutions to the issues presented, or to bring forward any issues not mentioned here.
 
-Contents:
-[Critical Issues](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#critical-issues)
-[Important Improvements](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#important-improvements)
-[Further improvements](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#further-improvements)
-[Additional Potential Features](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#additional-potential-features)
+Contents: <br>
+[Critical Issues](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#critical-issues) <br>
+[Important Improvements](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#important-improvements) <br>
+[Further improvements](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#further-improvements) <br>
+[Additional Potential Features](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#additional-potential-features) <br>
 [Other suggestions](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Improvements-And-Suggestions#other-suggestions)
 
 
