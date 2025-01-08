@@ -1,6 +1,4 @@
 
-# Technical Documentation
-
 This page gives an in-depth understanding of all important components of the Jimny. Software related information will be discussed in [Software Overview](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Technical-Documentation#Software-Overview).
 
 Contents: <br>
