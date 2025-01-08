@@ -38,7 +38,7 @@ Contents:
 **Mounting Improvements**
 	A lot of the components are currently just velcro'd on due to time constraints, but this should be improved for things not to move while driving
 
-There are many more future improvements to be made of course, a little more on the future objectives can be seen in [[Getting-Started||Getting Started]].
+There are many more future improvements to be made of course, a little more on the future objectives can be seen in [Getting Started](https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Getting-Started).
 
 
 ### Additional Potential Features
