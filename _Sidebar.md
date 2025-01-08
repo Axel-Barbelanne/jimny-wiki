@@ -1,7 +1,7 @@
 # SPOTS Jimny Project
 
 <details>
-<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Home-of-the-SPOTS-Jimny-Wiki">Home</a></summary>
+<summary><a href="https://github.com/Axel-Barbelanne/jimny-wiki/wiki/Home">Home</a></summary>
 
 - [About this wiki](https://github.com/Axel-Barbelanne/jimny-wiki/wiki#about-this-wiki)
 - [Wiki Sections](https://github.com/Axel-Barbelanne/jimny-wiki/wiki#wiki-sections)
